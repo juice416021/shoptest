@@ -32,9 +32,9 @@
 3.	管理者可管理會員、商品、類別、交易紀錄、管理公告(發送公告後透過redis異步執行，寄送Email給所有使用者)
 
 ## 測試用帳號
-- admin帳號
+- admin帳號  
   信箱:admintest@gmail.com  
   密碼:Password:adminroot
-- user帳號
+- user帳號  
   信箱:usertest@gmail.com  
   密碼:user1234

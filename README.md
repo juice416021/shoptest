@@ -18,11 +18,11 @@
 2.	複製BackUpImg裡面的兩個資料夾放到storage\app\public
 3.	執行 `php artisan storage:link`
 4.	複製 .env.example 文件並將其重命名為 .env
-5.	修改 .env 文件中的數據庫連接設置
+5.	修改 .env 文件中的資料庫連接設置
 6.	執行 `composer install`
 7.	執行 `php artisan key:generate` 生成金鑰
 8.	執行 `php artisan migrate` 創建資料表
-9.	執行 `php artisan db:seed --class=AllSeede` 將示範資料填充到數據庫中
+9.	執行 `php artisan db:seed --class=AllSeede` 將示範資料加到資料庫中
 10.	執行 `php artisan serve` 啟動開發伺服器
 11.	執行 `php artisan queue:work` 執行Queue
 
